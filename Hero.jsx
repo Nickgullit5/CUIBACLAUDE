@@ -8,7 +8,7 @@ const HeroComponent = ({ onCTA, overlay = 0.72, accent = '#111110' }) => {
   }, []);
 
   return (
-    <section style={{ position: 'relative', height: '100vh', minHeight: 600, overflow: 'hidden' }}>
+    <section className="hero-section" style={{ position: 'relative', minHeight: '100vh', overflow: 'hidden' }}>
       {/* Background image */}
       <img
         src="uploads/hero-cocina-01.jpg"
@@ -27,10 +27,10 @@ const HeroComponent = ({ onCTA, overlay = 0.72, accent = '#111110' }) => {
       }} />
 
       {/* Content */}
-      <div style={{
-        position: 'relative', zIndex: 2,
+      <div className="hero-content" style={{
+        position: 'relative', zIndex: 2, boxSizing: 'border-box',
         display: 'flex', flexDirection: 'column', justifyContent: 'center',
-        height: '100%', padding: '0 8vw', maxWidth: 820
+        minHeight: '100vh', padding: '96px 8vw 56px', maxWidth: 820
       }}>
         <p style={{
           fontFamily: 'Montserrat,sans-serif', fontSize: 11, fontWeight: 600,
@@ -97,7 +97,7 @@ const HeroComponent = ({ onCTA, overlay = 0.72, accent = '#111110' }) => {
         </div>
 
         {/* Stats row */}
-        <div style={{
+        <div className="hero-stats" style={{
           display: 'flex', gap: 48, marginTop: 72, flexWrap: 'wrap',
           opacity: loaded ? 1 : 0, transition: 'all 0.9s ease 1.1s'
         }}>
@@ -111,7 +111,7 @@ const HeroComponent = ({ onCTA, overlay = 0.72, accent = '#111110' }) => {
       </div>
 
       {/* Scroll indicator */}
-      <div style={{
+      <div className="hero-scroll" style={{
         position:'absolute', bottom: 36, left:'50%', transform:'translateX(-50%)',
         display:'flex', flexDirection:'column', alignItems:'center', gap:8,
         opacity: loaded ? 1 : 0, transition: 'opacity 1s ease 1.4s'
