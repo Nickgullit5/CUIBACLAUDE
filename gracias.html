@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>¡Gracias! — Cuiba Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- ============================================================
+       PÍXELES DE CONVERSIÓN — pega aquí tu código de seguimiento.
+       Esta página solo se ve tras enviar el formulario, así que
+       cualquier evento aquí cuenta como un lead/conversión.
+
+       Ejemplo Google Ads:
+       <script>gtag('event','conversion',{'send_to':'AW-XXXX/YYYY'});</script>
+
+       Ejemplo Meta (Facebook) Pixel:
+       <script>fbq('track','Lead');</script>
+       ============================================================ -->
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #111110;
+      color: #F9F8F5;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .wrap {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 64px 24px;
+    }
+    .card {
+      max-width: 620px;
+      text-align: center;
+    }
+    .check {
+      width: 76px; height: 76px; border-radius: 50%;
+      border: 2px solid #F9F8F5;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 40px;
+    }
+    .eyebrow {
+      font-size: 11px; font-weight: 600; letter-spacing: 0.22em;
+      text-transform: uppercase; color: rgba(249,248,245,0.4);
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-size: clamp(34px, 6vw, 60px); font-weight: 700;
+      letter-spacing: -0.02em; line-height: 1.05; margin-bottom: 24px;
+    }
+    h1 .light { font-weight: 300; }
+    .lead {
+      font-size: clamp(15px, 1.6vw, 18px); font-weight: 300;
+      color: rgba(249,248,245,0.7); line-height: 1.75;
+      max-width: 480px; margin: 0 auto 48px;
+    }
+    .steps {
+      display: flex; gap: 32px; justify-content: center;
+      flex-wrap: wrap; margin-bottom: 56px;
+    }
+    .step { max-width: 150px; }
+    .step .n {
+      font-size: 11px; font-weight: 700; letter-spacing: 0.15em;
+      color: rgba(249,248,245,0.3); margin-bottom: 12px;
+    }
+    .step .t {
+      font-size: 13px; font-weight: 400; color: rgba(249,248,245,0.7);
+      line-height: 1.6;
+    }
+    .ctas { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    .btn {
+      font-size: 12px; font-weight: 700; letter-spacing: 0.1em;
+      text-transform: uppercase; padding: 16px 30px; cursor: pointer;
+      text-decoration: none; border: none; transition: all 0.3s;
+      display: inline-flex; align-items: center; gap: 10px;
+    }
+    .btn-primary { background: #25D366; color: #fff; }
+    .btn-primary:hover { transform: translateY(-2px); }
+    .btn-ghost {
+      background: transparent; color: #F9F8F5;
+      border: 1px solid rgba(249,248,245,0.4);
+    }
+    .btn-ghost:hover { background: rgba(249,248,245,0.08); border-color: #fff; }
+    .brand {
+      padding: 32px 24px; text-align: center;
+      border-top: 1px solid rgba(249,248,245,0.1);
+      font-size: 12px; color: rgba(249,248,245,0.3); letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="check">
+        <svg width="32" height="32" viewBox="0 0 28 28" fill="none"><path d="M5 14l7 7L23 7" stroke="#F9F8F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <p class="eyebrow">Solicitud recibida</p>
+      <h1 id="title">¡Gracias!<br /><span class="light">Hemos recibido tu solicitud.</span></h1>
+      <p class="lead">
+        Nuestro equipo está revisando tu proyecto. Te contactaremos en menos de
+        <strong style="font-weight:600;color:#F9F8F5;">48&nbsp;horas</strong> con un render 3D
+        y un presupuesto personalizado, sin compromiso.
+      </p>
+
+      <div class="steps">
+        <div class="step">
+          <div class="n">01</div>
+          <div class="t">Revisamos los detalles de tu proyecto</div>
+        </div>
+        <div class="step">
+          <div class="n">02</div>
+          <div class="t">Te llamamos para concretar la visita</div>
+        </div>
+        <div class="step">
+          <div class="n">03</div>
+          <div class="t">Recibes tu render 3D + presupuesto</div>
+        </div>
+      </div>
+
+      <div class="ctas">
+        <a class="btn btn-primary" href="https://wa.me/34611637679?text=Hola,%20acabo%20de%20enviar%20una%20solicitud%20desde%20la%20web." target="_blank" rel="noopener noreferrer">
+          <svg width="18" height="18" viewBox="0 0 28 28" fill="none"><path d="M14 2C7.373 2 2 7.373 2 14c0 2.15.573 4.168 1.575 5.906L2 26l6.254-1.546A11.953 11.953 0 0014 26c6.627 0 12-5.373 12-12S20.627 2 14 2z" fill="#fff"/><path d="M19.5 16.5c-.3-.15-1.77-.873-2.04-.972-.273-.099-.47-.148-.67.15-.198.296-.77.97-.944 1.17-.173.197-.347.222-.644.074-.297-.148-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.457.13-.605.133-.132.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.52-.075-.149-.67-1.612-.917-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.273.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.413-.074-.124-.272-.198-.57-.347z" fill="#25D366"/></svg>
+          Escríbenos por WhatsApp
+        </a>
+        <a class="btn btn-ghost" href="index.html">Volver al inicio</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand">© 2026 Cuiba Design · Reformas de cocinas y baños en Girona y Costa Brava</div>
+
+  <script>
+    // Personaliza el título con el nombre pasado por query (?n=Nombre)
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      const name = params.get('n');
+      if (name) {
+        const safe = name.replace(/[<>]/g, '').trim().split(' ')[0];
+        if (safe) {
+          document.getElementById('title').innerHTML =
+            '¡Gracias, ' + safe + '!<br /><span class="light">Hemos recibido tu solicitud.</span>';
+        }
+      }
+    })();
+  </script>
+</body>
+</html>
