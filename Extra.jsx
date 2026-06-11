@@ -190,9 +190,9 @@ const ExtraComponent = ({ showTestimonials = true }) => {
                   <a href="https://wa.me/34611637679?text=Hola,%20me%20gustaría%20solicitar%20información." target="_blank" rel="noopener noreferrer" style={{ fontFamily:'Montserrat,sans-serif', fontSize:15, fontWeight:400, color:'rgba(249,248,245,0.7)', textDecoration:'none', borderBottom:'1px solid transparent', transition:'all 0.25s' }}
                     onMouseEnter={e => { e.currentTarget.style.color='#F9F8F5'; e.currentTarget.style.borderBottomColor='rgba(249,248,245,0.5)'; }}
                     onMouseLeave={e => { e.currentTarget.style.color='rgba(249,248,245,0.7)'; e.currentTarget.style.borderBottomColor='transparent'; }}>WhatsApp</a>
-                  <a href="mailto:hola@cuibadesign.com" style={{ fontFamily:'Montserrat,sans-serif', fontSize:15, fontWeight:400, color:'rgba(249,248,245,0.7)', textDecoration:'none', borderBottom:'1px solid transparent', transition:'all 0.25s' }}
+                  <a href="mailto:cuibadesign@gmail.com" style={{ fontFamily:'Montserrat,sans-serif', fontSize:15, fontWeight:400, color:'rgba(249,248,245,0.7)', textDecoration:'none', borderBottom:'1px solid transparent', transition:'all 0.25s' }}
                     onMouseEnter={e => { e.currentTarget.style.color='#F9F8F5'; e.currentTarget.style.borderBottomColor='rgba(249,248,245,0.5)'; }}
-                    onMouseLeave={e => { e.currentTarget.style.color='rgba(249,248,245,0.7)'; e.currentTarget.style.borderBottomColor='transparent'; }}>hola@cuibadesign.com</a>
+                    onMouseLeave={e => { e.currentTarget.style.color='rgba(249,248,245,0.7)'; e.currentTarget.style.borderBottomColor='transparent'; }}>cuibadesign@gmail.com</a>
                 </div>
               </div>
               <div>

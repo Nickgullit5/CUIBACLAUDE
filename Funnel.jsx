@@ -8,7 +8,7 @@ const FunnelComponent = ({ accent = '#111110' }) => {
   const [direction, setDirection] = React.useState(1);
   const [animating, setAnimating] = React.useState(false);
 
-  const LEAD_EMAIL = 'nickcp2001@gmail.com';
+  const LEAD_EMAIL = 'cuibadesign@gmail.com';
   const LABELS = {
     servicio: { diseno:'Solo Diseño', reforma:'Solo Reforma', ambos:'Diseño + Reforma' },
     estancia: { bano:'Baño', cocina:'Cocina', ambos:'Cocina y baño' },

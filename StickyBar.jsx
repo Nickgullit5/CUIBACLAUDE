@@ -11,7 +11,7 @@ const StickyBarComponent = () => {
     if (!email || !msg || sending) return;
     setSending(true); setError(false);
     try {
-      const res = await fetch('https://formsubmit.co/ajax/nickcp2001@gmail.com', {
+      const res = await fetch('https://formsubmit.co/ajax/cuibadesign@gmail.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify({
