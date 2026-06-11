@@ -11,7 +11,7 @@ const HeroComponent = ({ onCTA, overlay = 0.72, accent = '#111110' }) => {
     <section className="hero-section" style={{ position: 'relative', minHeight: '100vh', overflow: 'hidden' }}>
       {/* Background image */}
       <img
-        src="uploads/hero-cocina-01.jpg"
+        src="uploads/hero-cocina-02.jpg"
         alt="Cocina de lujo Cuiba Design"
         style={{
           position: 'absolute', inset: 0, width: '100%', height: '100%',
